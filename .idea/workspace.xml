@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="94f632d6-ea50-4b4d-9f46-83fe853077c3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_build_main_go" beforeDir="false" afterPath="$PROJECT_DIR$/go_build_main_go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
-    </list>
+    <list default="true" id="94f632d6-ea50-4b4d-9f46-83fe853077c3" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -56,6 +52,17 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
   </component>
@@ -92,6 +99,14 @@
       <screen x="0" y="39" width="1920" height="1041" />
     </state>
     <state width="1852" height="243" key="GridCell.Tab.0.right/0.39.1920.1041@0.39.1920.1041" timestamp="1596543960038" />
+    <state x="228" y="125" key="MergeDialog" timestamp="1596544304228">
+      <screen x="0" y="39" width="1920" height="1041" />
+    </state>
+    <state x="228" y="125" key="MergeDialog/0.39.1920.1041@0.39.1920.1041" timestamp="1596544304228" />
+    <state x="430" y="207" width="1131" height="705" key="MultipleFileMergeDialog" timestamp="1596544307859">
+      <screen x="0" y="39" width="1920" height="1041" />
+    </state>
+    <state x="430" y="207" width="1131" height="705" key="MultipleFileMergeDialog/0.39.1920.1041@0.39.1920.1041" timestamp="1596544307859" />
     <state x="234" y="39" width="1452" height="1041" key="SettingsEditor" timestamp="1596542264925">
       <screen x="0" y="39" width="1920" height="1041" />
     </state>
