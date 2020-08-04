@@ -63,8 +63,6 @@ func getClusterStat(sAddr string, tAddr string) {
     newData, err := json.Marshal(m)
     check(err)
 
-    log.Println(string(newData))
-
     sendData(tAddr, newData)
 }
 
@@ -79,11 +77,11 @@ func getNodeStat(sAddr string, tAddr string) {
 
     defer resp.Body.Close()
 
-    bytedata, err := ioutil.ReadAll(resp.Body)
     check(err)
 
     var m map[string]interface{}
-    err = json.Unmarshal(bytedata, &m)
+    byteData, err := ioutil.ReadAll(resp.Body)
+    err = json.Unmarshal(byteData, &m)
     check(err)
 
     m["@timestamp"] = time.Now()
@@ -113,16 +111,24 @@ func getIndexStat(sAddr string, tAddr string) {
     err = json.Unmarshal(byteData, &m)
     check(err)
 
-    //mod fields --- _all can't stay here
+    //mod fields --- _all --- _shards --- can't stay here
     m["@timestamp"] = time.Now().UTC()
     m["all"] = m["_all"]
     m["_all"] = nil
 
+    m["shards"] = m["_shards"]
+    m["_shards"] = nil
+
     newData, err := json.Marshal(&m)
     check(err)
 
-    data,err := sjson.Delete(string(newData),"_all")
+
+    data,err := sjson.Delete(string(newData),"_shards")
     check(err)
+
+    data,err = sjson.Delete(string(newData),"_all")
+    check(err)
+
 
     sendData(tAddr,[]byte(data))
 }
@@ -142,7 +148,7 @@ func check(err error) {
 
 func sendData(addr string, data []byte) {
 
-    indexName := "es-data"
+    indexName := "es_data"
     typeName := "monitor"
     u := "http://" + addr + "/" + indexName + "/" + typeName + "/" + time.Now().UTC().String()
 
@@ -153,12 +159,18 @@ func sendData(addr string, data []byte) {
 
     defer resp.Body.Close()
 
-    log.Println(resp.Status)
-    s,_ :=ioutil.ReadAll(resp.Body)
-    log.Println(string(s))
 
+    if resp.StatusCode != 200 && resp.StatusCode != 201 {
+        log.Warningln(resp.Status)
+        s,_ :=ioutil.ReadAll(resp.Body)
+        log.Warningln(string(s))
+
+    }else{
+        log.Println(resp.Status)
+    }
 
 }
+
 
 func init(){
 

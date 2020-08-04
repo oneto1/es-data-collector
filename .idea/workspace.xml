@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="94f632d6-ea50-4b4d-9f46-83fe853077c3" name="Default Changelist" comment="" />
+    <list default="true" id="94f632d6-ea50-4b4d-9f46-83fe853077c3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go_build_main_go" beforeDir="false" afterPath="$PROJECT_DIR$/go_build_main_go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,6 +19,9 @@
     </option>
   </component>
   <component name="GOROOT" path="/usr/lib/go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GoLibraries">
     <option name="indexEntireGoPath" value="false" />
   </component>
@@ -30,7 +37,7 @@
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/main.go" />
-    <property name="settings.editor.selected.configurable" value="go.vgo" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunManager">
     <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" nameIsGenerated="true">
@@ -69,25 +76,29 @@
       <screen x="0" y="39" width="1920" height="1041" />
     </state>
     <state x="879" y="189" key="FileChooserDialogImpl/0.39.1920.1041@0.39.1920.1041" timestamp="1596374665839" />
-    <state width="1852" height="243" key="GridCell.Tab.0.bottom" timestamp="1596466496372">
+    <state width="1852" height="243" key="GridCell.Tab.0.bottom" timestamp="1596543960038">
       <screen x="0" y="39" width="1920" height="1041" />
     </state>
-    <state width="1852" height="243" key="GridCell.Tab.0.bottom/0.39.1920.1041@0.39.1920.1041" timestamp="1596466496372" />
-    <state width="1852" height="243" key="GridCell.Tab.0.center" timestamp="1596466496371">
+    <state width="1852" height="243" key="GridCell.Tab.0.bottom/0.39.1920.1041@0.39.1920.1041" timestamp="1596543960038" />
+    <state width="1852" height="243" key="GridCell.Tab.0.center" timestamp="1596543960037">
       <screen x="0" y="39" width="1920" height="1041" />
     </state>
-    <state width="1852" height="243" key="GridCell.Tab.0.center/0.39.1920.1041@0.39.1920.1041" timestamp="1596466496371" />
-    <state width="1852" height="243" key="GridCell.Tab.0.left" timestamp="1596466496370">
+    <state width="1852" height="243" key="GridCell.Tab.0.center/0.39.1920.1041@0.39.1920.1041" timestamp="1596543960037" />
+    <state width="1852" height="243" key="GridCell.Tab.0.left" timestamp="1596543960037">
       <screen x="0" y="39" width="1920" height="1041" />
     </state>
-    <state width="1852" height="243" key="GridCell.Tab.0.left/0.39.1920.1041@0.39.1920.1041" timestamp="1596466496370" />
-    <state width="1852" height="243" key="GridCell.Tab.0.right" timestamp="1596466496371">
+    <state width="1852" height="243" key="GridCell.Tab.0.left/0.39.1920.1041@0.39.1920.1041" timestamp="1596543960037" />
+    <state width="1852" height="243" key="GridCell.Tab.0.right" timestamp="1596543960038">
       <screen x="0" y="39" width="1920" height="1041" />
     </state>
-    <state width="1852" height="243" key="GridCell.Tab.0.right/0.39.1920.1041@0.39.1920.1041" timestamp="1596466496371" />
-    <state x="234" y="39" key="SettingsEditor" timestamp="1596373757532">
+    <state width="1852" height="243" key="GridCell.Tab.0.right/0.39.1920.1041@0.39.1920.1041" timestamp="1596543960038" />
+    <state x="234" y="39" width="1452" height="1041" key="SettingsEditor" timestamp="1596542264925">
       <screen x="0" y="39" width="1920" height="1041" />
     </state>
-    <state x="234" y="39" key="SettingsEditor/0.39.1920.1041@0.39.1920.1041" timestamp="1596373757532" />
+    <state x="234" y="39" width="1452" height="1041" key="SettingsEditor/0.39.1920.1041@0.39.1920.1041" timestamp="1596542264925" />
+    <state x="697" y="440" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1596543986277">
+      <screen x="0" y="39" width="1920" height="1041" />
+    </state>
+    <state x="697" y="440" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.39.1920.1041@0.39.1920.1041" timestamp="1596543986277" />
   </component>
 </project>
