@@ -167,7 +167,7 @@ func check(err error,funcname string) {
     //fmt.Println(runtime.FuncForPC(pc).Name())
 
     if err != nil {
-        log.Fatal("Func %s fail,err is %s",funcname,err.Error())
+        log.Fatal("Func ",funcname," - ",err.Error())
     }
 
 }
